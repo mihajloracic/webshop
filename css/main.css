@@ -51,4 +51,44 @@ form label{
 }
 form input.btn{
   margin-top:15px;
+  margin-bottom: 15px;
+}
+#errorEmail{
+  display: none;
+}
+#errorName{
+  display: none;
+}
+#errorLastName{
+  display: none;
+}
+#errorNumber{
+  display: none;
+}
+#errorMessage{
+  display: none;
+}
+.article-img{
+  width: 100%;
+}
+.product-text{
+  text-align: justify;
+  margin:2px;
+  padding: 2px;
+}
+.cartButton{
+  margin: 7px;
+  position: relative;
+  top: 100px;
+}
+span.glyphicon.glyphicon-shopping-cart{
+  font-size: 1.4em;
+  right:5px;
+  top:0px;
+}
+article.container{
+  border: solid green 3px;
+}
+.abspos{
+  position: absolute;
 }

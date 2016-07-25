@@ -59,19 +59,28 @@
                 <div class="container ">
                     <form class="contact col-sm-6 col-xs-12">
                         <label>Name:</label>
-                        <input id="name" type="text" class="form-control" placeholder="Name...">
+                        <input id="name" type="text" class="form-control" placeholder="Name..." required>
                         <label>Last name:</label>
-                        <input id="lastaname" type="text" class="form-control" placeholder="Lastname...">
+                        <input id="lastaname" type="text" class="form-control" placeholder="Lastname..." required>
                         <label>Email:</label>
-                        <input id="email" type="text" class="form-control" placeholder="Email...">
+                        <input id="email" type="text" name="mail" class="form-control" placeholder="Email...">
                         <label>Phone numer:</label>
-                        <input id="number" type="text" class="form-control" placeholder="Phone numer...">
+                        <input id="number" type="text" class="form-control" placeholder="Phone numer..." required>
                         <label>Message:</label>
                         <textarea id="message" class="form-control" rows="7" placeholder="Type your message here" required></textarea>
                         <input id="submit" class="btn btn-default btn-primary btn-lg pull-right" type="submit" value="Submit">
                     </form>
                     <div class="col-sm-6 hidden-xs contacUs">
                         <img src="images\contact.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <div class="container ">
+                    <div class="col-sm-6 col-xs-12">
+                      <div id="errorName" class="alert alert-danger" role="alert">Incorect name</div>
+                        <div id="errorLastName" class="alert alert-danger" role="alert">Incorect lastname</div>
+                        <div id="errorEmail" class="alert alert-danger" role="alert">Incorect email</div>
+                        <div id="errorNumber" class="alert alert-danger" role="alert">Incorect number</div>
+                        <div id="errorMessage" class="alert alert-danger" role="alert">Incorect message. Message must be longer that 40 chartes</div>
                     </div>
                 </div>
             </div>
