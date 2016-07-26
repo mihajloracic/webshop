@@ -79,16 +79,20 @@ form input.btn{
 .cartButton{
   margin: 7px;
   position: relative;
-  top: 100px;
 }
 span.glyphicon.glyphicon-shopping-cart{
   font-size: 1.4em;
-  right:5px;
-  top:0px;
 }
 article.container{
-  border: solid green 3px;
+
 }
-.abspos{
-  position: absolute;
+.myContainer{
+  display: block;
+}
+.supply{
+  width: 15%;
+  margin-right: 9px;
+}
+.price{
+  margin-left: 8px;
 }
